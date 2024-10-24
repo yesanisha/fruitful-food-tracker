@@ -1,0 +1,91 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.bg-green {
+    background-color: #4CAF50 !important; /* Green color */
+}
+
+body {
+    margin: 0 0 90px; /* bottom = footer height */
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #e6f7e6; /* Light green background */
+    color: #4CAF50; /* Green text color for body text */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #66BB6A; /* Green footer background */
+    color: white; /* White text for footer */
+}
+
+/* Link styling */
+a {
+    color: #4CAF50; /* Green link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #388E3C; /* Darker green on hover */
+}
+
+/* Button styling (if any) */
+button {
+    background-color: #4CAF50; /* Green button background */
+    color: white; /* White text on buttons */
+    border: none;
+}
+
+button:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+/* Custom green button */
+.btn-green {
+    background-color: #4CAF50 !important; /* Green color */
+    border-color: #4CAF50 !important;
+    color: white !important; /* White text */
+}
+
+/* Cancel button stays dark */
+.btn-outline-dark {
+    border-color: #343a40 !important;
+    color: #343a40 !important;
+}
+
+/* Optional: Hover effect for green button */
+.btn-green:hover {
+    background-color: #66BB6A !important; /* Lighter green on hover */
+    border-color: #66BB6A !important;
+}
+
+/* Optional: Hover effect for Cancel button */
+.btn-outline-dark:hover {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+/* Custom green text */
+.text-green {
+    color: #4CAF50 !important; /* Green color */
+}
+
+/* Pagination buttons in green */
+.page-link.text-green {
+    color: #4CAF50 !important;
+}
+
+/* Optional: Green hover effect for links */
+.text-green:hover {
+    color: #66BB6A !important; /* Lighter green on hover */
+}
+.rounded-circle {
+    border: 2px solid #28a745; /* Green border */
+}
+
+
